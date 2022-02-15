@@ -1,0 +1,988 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero--area section-padding-80">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-12 col-md-7 col-lg-8">
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="post-1" role="tabpanel" aria-labelledby="post-1-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/7-1.png' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">前端系列</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">HTML5是HTML的最新版本，它独特的语义赋予网页更好的意义和结构；本地存储让基于HTML5开发的网页APP拥有更短的启动，更快的联网；内嵌的本地 数据库，加速了搜索功能；Canvas及CSS3的动画功能，带来炫酷的效果。Audio、Video等多媒体支持功能、跨平台及自适应设计…HTML5为你打造全新的网页设计体验。</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="post-2" role="tabpanel" aria-labelledby="post-2-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/8-1.png' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">大数据</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">数据时代·AI赋能——距离大会还有三天</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="post-3" role="tabpanel" aria-labelledby="post-3-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/9-1.png' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">人工智能</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">人工智能训练营————以python实现</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="post-4" role="tabpanel" aria-labelledby="post-4-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/10-1.png' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">UI设计</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">UI设计师进阶公开课开始啦</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="post-5" role="tabpanel" aria-labelledby="post-5-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/new-1.png' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">后端开发</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">JAVA架构师：大型互联网实战技术</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="post-6" role="tabpanel" aria-labelledby="post-6-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/10.jpg' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">Sports</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">Reunification of migrant toddlers, parents should be completed Thursday</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="post-7" role="tabpanel" aria-labelledby="post-7-tab">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/7.jpg' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">Sports</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">Reunification of migrant toddlers, parents should be completed Thursday</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-4">
+                    <ul class="nav vizew-nav-tab" role="tablist">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" id="post-1-tab" data-toggle="pill" href="#post-1" role="tab" aria-controls="post-1" aria-selected="true">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/3-1.png' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <h6 class="post-title">前端大咖特训营：HTML5从基础到进阶</h6>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <span><i class="fa fa-comments-o" aria-hidden="true"></i> 25</span>
+                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 11</span>
+                                            <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 19</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="post-2-tab" data-toggle="pill" href="#post-2" role="tab" aria-controls="post-2" aria-selected="false">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/4-1.png' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <h6 class="post-title">数据时代·AI赋能————距离大会还有三天</h6>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <span><i class="fa fa-comments-o" aria-hidden="true"></i> 14</span>
+                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 34</span>
+                                            <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="post-3-tab" data-toggle="pill" href="#post-3" role="tab" aria-controls="post-3" aria-selected="false">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/5-1.png' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <h6 class="post-title">人工智能训练营————以python实现</h6>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <span><i class="fa fa-comments-o" aria-hidden="true"></i> 14</span>
+                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 34</span>
+                                            <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="post-4-tab" data-toggle="pill" href="#post-4" role="tab" aria-controls="post-4" aria-selected="false">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/6-1.png' %}" alt="">
+                                    </div>
+
+                                    <div class="post-content">
+                                        <h6 class="post-title">UI设计师进阶公开课开始啦</h6>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <span><i class="fa fa-comments-o" aria-hidden="true"></i> 24</span>
+                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 98</span>
+                                            <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 63</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="post-5-tab" data-toggle="pill" href="#post-5" role="tab" aria-controls="post-5" aria-selected="false">
+                                <!-- Single Blog Post -->
+                                <div class="single-blog-post style-2 d-flex align-items-center">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/new.png' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <h6 class="post-title">JAVA架构师：大型互联网实战技术</h6>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <span><i class="fa fa-comments-o" aria-hidden="true"></i> 14</span>
+                                            <span><i class="fa fa-eye" aria-hidden="true"></i> 34</span>
+                                            <span><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### Trending Posts Area Start ##### -->
+    <section class="trending-posts-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading -->
+                    <div class="section-heading">
+                        <h4>后端系列</h4>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Blog Post -->
+                <div class="col-12 col-md-4">
+                    <div class="single-course-area mb-80">
+                        <!-- Post Thumbnail -->
+                        <div class="post-thumbnail">
+                            <img src="{% static 'img/bg-img/11.jpg' %}" alt="">
+
+                            <!-- Video Duration -->
+                            <span class="video-duration">05.03</span>
+                        </div>
+
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <a href="#" class="post-cata cata-sm cata-success">java</a>
+                            <a href="{% url 'user:my-system' %}" class="post-title">全面覆盖，提升java架构师十项全能与全方面思维</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 22</a>
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 16</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 15</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="col-12 col-md-4">
+                    <div class="single-course-area mb-80">
+                        <!-- Post Thumbnail -->
+                        <div class="post-thumbnail">
+                            <img src="{% static 'img/bg-img/12.jpg' %}" alt="">
+
+                            <!-- Video Duration -->
+                            <span class="video-duration">05.03</span>
+                        </div>
+
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <a href="#" class="post-cata cata-sm cata-danger">python</a>
+                            <a href="{% url 'user:my-system' %}" class="post-title">Python分布式爬虫体系课程</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 28</a>
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 17</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Blog Post -->
+                <div class="col-12 col-md-4">
+                    <div class="single-course-area mb-80">
+                        <!-- Post Thumbnail -->
+                        <div class="post-thumbnail">
+                            <img src="{% static 'img/bg-img/13.jpg' %}" alt="">
+
+                            <!-- Video Duration -->
+                            <span class="video-duration">05.03</span>
+                        </div>
+
+                        <!-- Post Content -->
+                        <div class="post-content">
+                            <a href="#" class="post-cata cata-sm cata-primary">go</a>
+                            <a href="{% url 'user:my-system' %}" class="post-title">全面学习Go的关键开发技能和架构风格</a>
+                            <div class="post-meta d-flex">
+                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ##### Trending Posts Area End ##### -->
+
+    <!-- ##### Vizew Post Area Start ##### -->
+    <section class="vizew-post-area mb-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 col-lg-8">
+                    <div class="all-posts-area">
+                        <!-- Section Heading -->
+                        <div class="section-heading style-2">
+                            <h4>前端系列</h4>
+                            <div class="line"></div>
+                        </div>
+
+                        <!-- Featured Post Slides -->
+                        <div class="featured-post-slides owl-carousel mb-30">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/14.jpg' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">HTML 5</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">初识html+css</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/7.jpg' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">Vue.js</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">Vue.js源码全方位解析，全面深入理解Vue实现原理</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-md-6">
+                                <div class="single-course-area mb-80">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/12.jpg' %}" alt="">
+
+                                        <!-- Video Duration -->
+                                        <span class="video-duration">05.03</span>
+                                    </div>
+
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="post-cata cata-sm cata-danger">Node.js</a>
+                                        <a href="{% url 'user:my-system' %}" class="post-title">零基础系统学习NodeJS的基础，熟练使用Node的核心API，搭建服务器</a>
+                                        <div class="post-meta d-flex">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 28</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 17</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-md-6">
+                                <div class="single-course-area mb-80">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/13.jpg' %}" alt="">
+
+                                        <!-- Video Duration -->
+                                        <span class="video-duration">05.03</span>
+                                    </div>
+
+                                    <!-- Post Content -->
+                                    <div class="post-content">
+                                        <a href="#" class="post-cata cata-sm cata-primary">jQuery</a>
+                                        <a href="{% url 'user:my-system' %}" class="post-title">jQuery常见插件</a>
+                                        <div class="post-meta d-flex">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <!-- Section Heading -->
+
+
+                                <!-- Sports Video Slides -->
+                                <div class="sport-video-slides owl-carousel mb-50">
+                                    <!-- Single Blog Post -->
+                                    <div class="single-course-area">
+                                        <!-- Post Thumbnail -->
+                                        <div class="post-thumbnail">
+                                            <img src="{% static 'img/bg-img/15.jpg' %}" alt="">
+
+                                            <!-- Video Duration -->
+                                            <span class="video-duration">05.03</span>
+                                        </div>
+
+                                        <!-- Post Content -->
+                                        <div class="post-content">
+                                            <a href="#" class="post-cata cata-sm cata-success">小程序开发</a>
+                                            <a href="{% url 'user:my-system' %}" class="post-title">讲解微信小程序的基本开发知识及开发过程中部分常见的问题。</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-course-area">
+                                        <!-- Post Thumbnail -->
+                                        <div class="post-thumbnail">
+                                            <img src="{% static 'img/bg-img/13.jpg' %}" alt="">
+
+                                            <!-- Video Duration -->
+                                            <span class="video-duration">05.03</span>
+                                        </div>
+
+                                        <!-- Post Content -->
+                                        <div class="post-content">
+                                            <a href="#" class="post-cata cata-sm cata-success">小程序开发</a>
+                                            <a href="{% url 'user:my-system' %}" class="post-title">Spring Boot短视频小程序开发 全栈式实战项目</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <!-- Section Heading -->
+
+
+                                <!-- Business Video Slides -->
+                                <div class="business-video-slides owl-carousel mb-50">
+                                    <!-- Single Blog Post -->
+                                    <div class="single-course-area">
+                                        <!-- Post Thumbnail -->
+                                        <div class="post-thumbnail">
+                                            <img src="{% static 'img/bg-img/17.jpg' %}" alt="">
+
+                                            <!-- Video Duration -->
+                                            <span class="video-duration">05.03</span>
+                                        </div>
+
+                                        <!-- Post Content -->
+                                        <div class="post-content">
+                                            <a href="#" class="post-cata cata-sm cata-primary">Javascript</a>
+                                            <a href="{% url 'user:my-system' %}" class="post-title">如何运用JavaScript去操作HTML元素和CSS样式</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Single Blog Post -->
+                                    <div class="single-course-area">
+                                        <!-- Post Thumbnail -->
+                                        <div class="post-thumbnail">
+                                            <img src="{% static 'img/bg-img/13.jpg' %}" alt="">
+
+                                            <!-- Video Duration -->
+                                            <span class="video-duration">05.03</span>
+                                        </div>
+
+                                        <!-- Post Content -->
+                                        <div class="post-content">
+                                            <a href="#" class="post-cata cata-sm cata-primary">JavaScript</a>
+                                            <a href="{% url 'user:my-system' %}" class="post-title">用JS实现购物车特效</a>
+                                            <div class="post-meta d-flex">
+                                                <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                                <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb-30">
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-lg-6">
+                                <div class="single-blog-post style-3 d-flex mb-50">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/16.jpg' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="{% url 'user:my-system' %}" class="post-title">javascript实战进阶</a>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 16</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 26</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 17</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-lg-6">
+                                <div class="single-blog-post style-3 d-flex mb-50">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/18.jpg' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="{% url 'user:my-system' %}" class="post-title">最新前端编程学习路线+知识图谱</a>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 16</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 26</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 17</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-lg-6">
+                                <div class="single-blog-post style-3 d-flex mb-50">
+                                    <div class="post-thumbnail">
+                                        <img src="../static/img/bg-img/19.jpg" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="{% url 'user:my-system' %}" class="post-title">Web前端零基础入门HTML5+CSS3基础教程</a>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 16</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 26</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 17</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="col-12 col-lg-6">
+                                <div class="single-blog-post style-3 d-flex mb-50">
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/20.jpg' %}" alt="">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="{% url 'user:my-system' %}" class="post-title">2022最新WEB前端面试题大汇总前端面试必备</a>
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 16</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 26</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 17</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Section Heading -->
+                        <div class="section-heading style-2">
+                            <h4>计算机基础</h4>
+                            <div class="line"></div>
+                        </div>
+
+                        <!-- Featured Post Slides -->
+                        <div class="featured-post-slides owl-carousel mb-30">
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/14.jpg' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">计算机网络</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">计算机网络-自顶向下方法</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+
+                            <!-- Single Feature Post -->
+                            <div class="single-feature-post my-system bg-img" style="background-image: url({% static 'img/bg-img/7.jpg' %});">
+                                <!-- Play Button -->
+                                <a href="my-system.html" class="btn play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata">计算机网络</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">全网播放量最高计算机网络全套课程</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
+                                    </div>
+                                </div>
+
+                                <!-- Video Duration -->
+                                <span class="video-duration">05.03</span>
+                            </div>
+                        </div>
+
+                        <!-- Single Post Area -->
+                        <div class="single-course-area mb-30">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-6">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/21.jpg' %}" alt="">
+
+                                        <!-- Video Duration -->
+                                        <span class="video-duration">05.03</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <!-- Post Content -->
+                                    <div class="post-content mt-0">
+                                        <a href="#" class="post-cata cata-sm cata-success">计算机组成原理</a>
+                                        <a href="{% url 'user:my-system' %}" class="post-title mb-2">May fights on after Johnson savages Brexit approach</a>
+                                        <div class="post-meta d-flex align-items-center mb-2">
+                                            <a href="#" class="post-author">By Jane</a>
+                                            <i class="fa fa-circle" aria-hidden="true"></i>
+                                            <a href="#" class="post-date">Sep 08, 2018</a>
+                                        </div>
+
+                                        <div class="post-meta d-flex">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 32</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 42</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 7</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Single Post Area -->
+                        <div class="single-course-area mb-30">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-6">
+                                    <!-- Post Thumbnail -->
+                                    <div class="post-thumbnail">
+                                        <img src="{% static 'img/bg-img/23.jpg' %}" alt="">
+
+                                        <!-- Video Duration -->
+                                        <span class="video-duration">05.03</span>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <!-- Post Content -->
+                                    <div class="post-content mt-0">
+                                        <a href="#" class="post-cata cata-sm cata-primary">算法与数据结构</a>
+                                        <a href="{% url 'user:my-system' %}" class="post-title mb-2">算法与数据结构——零基础版</a>
+                                        <div class="post-meta d-flex align-items-center mb-2">
+                                            <a href="#" class="post-author">By Jane</a>
+                                            <i class="fa fa-circle" aria-hidden="true"></i>
+                                            <a href="#" class="post-date">Sep 08, 2018</a>
+                                        </div>
+
+                                        <div class="post-meta d-flex">
+                                            <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 32</a>
+                                            <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 42</a>
+                                            <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 7</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-4">
+                    <div class="sidebar-area">
+
+                        <!-- ***** Single Widget ***** -->
+                        <div class="single-widget followers-widget mb-50">
+                            <a href="#" class="facebook"><i class="fa fa-comments-o" aria-hidden="true"></i><span class="counter">1980</span><span>comment</span></a>
+                            <a href="#" class="twitter"><i class="fa fa-eye" aria-hidden="true"></i><span class="counter">22090</span><span>browse</span></a>
+                            <a href="#" class="google"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i><span class="counter">1498</span><span>upvote</span></a>
+                        </div>
+
+                        <!-- ***** Single Widget ***** -->
+                        <div class="single-widget latest-video-widget mb-50">
+                            <!-- Section Heading -->
+                            <div class="section-heading style-2 mb-30">
+                                <h4>技术前沿</h4>
+                                <div class="line"></div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-course-area mb-30">
+                                <!-- Post Thumbnail -->
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/13.jpg' %}" alt="">
+
+                                    <!-- Video Duration -->
+                                    <span class="video-duration">05.03</span>
+                                </div>
+
+                                <!-- Post Content -->
+                                <div class="post-content">
+                                    <a href="#" class="post-cata cata-sm cata-success">AI</a>
+                                    <a href="{% url 'user:my-system' %}" class="post-title">Python3入门人工智能 掌握机器学习+深度学习</a>
+                                    <div class="post-meta d-flex">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 38</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 22</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex">
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/1.jpg' %}" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <a href="{% url 'user:my-system' %}" class="post-title">JS实现人机大战之五子棋（AI篇）</a>
+                                    <div class="post-meta d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 29</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 08</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 23</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex">
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/2.jpg' %}" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <a href="{% url 'user:my-system' %}" class="post-title">AI小白入学&求职指南</a>
+                                    <div class="post-meta d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 17</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 33</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 26</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex">
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/35.jpg' %}" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <a href="{% url 'user:my-system' %}" class="post-title">Python3+TensorFlow打造人脸识别智能小程序</a>
+                                    <div class="post-meta d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 11</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 42</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 21</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ***** Single Widget ***** -->
+                        <div class="single-widget add-widget mb-50">
+                            <a href="#"><img src="{% static 'img/bg-img/add.png' %}" alt=""></a>
+                        </div>
+
+                        <!-- ***** Sidebar Widget ***** -->
+                        <div class="single-widget youtube-channel-widget mb-50">
+                            <!-- Section Heading -->
+                            <div class="section-heading style-2 mb-30">
+                                <h4>热门技术</h4>
+                                <div class="line"></div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex align-items-center">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="{% static 'img/bg-img/25.jpg' %}" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="{% url 'user:my-system' %}" class="channel-title">Music Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex align-items-center">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="{% static 'img/bg-img/26.jpg' %}" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="{% url 'user:my-system' %}" class="channel-title">Trending Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+                            <!-- Single YouTube Channel -->
+                            <div class="single-youtube-channel d-flex align-items-center">
+                                <div class="youtube-channel-thumbnail">
+                                    <img src="{% static 'img/bg-img/27.jpg' %}" alt="">
+                                </div>
+                                <div class="youtube-channel-content">
+                                    <a href="{% url 'user:my-system' %}" class="channel-title">Travel Channel</a>
+                                    <a href="#" class="btn subscribe-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Subscribe</a>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+
+                        <!-- ***** Single Widget ***** -->
+                        <div class="single-widget newsletter-widget mb-50">
+                            <!-- Section Heading -->
+                            <div class="section-heading style-2 mb-30">
+                                <h4>Newsletter</h4>
+                                <div class="line"></div>
+                            </div>
+                            <p>Subscribe our newsletter gor get notification about new updates, information discount, etc.</p>
+                            <!-- Newsletter Form -->
+                            <div class="newsletter-form">
+                                <form action="#" method="post">
+                                    <input type="email" name="nl-email" class="form-control mb-15" id="emailnl" placeholder="Enter your email">
+                                    <button type="submit" class="btn vizew-btn w-100">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- ***** Single Widget ***** -->
+                        <div class="single-widget mb-50">
+                            <!-- Section Heading -->
+                            <div class="section-heading style-2 mb-30">
+                                <h4>Most Viewed Playlist</h4>
+                                <div class="line"></div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex">
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/1.jpg' %}" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <a href="{% url 'user:my-system' %}" class="post-title">DC Shoes: gymkhana five; the making of</a>
+                                    <div class="post-meta d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex">
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/37.jpg' %}" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <a href="{% url 'user:my-system' %}" class="post-title">DC Shoes: gymkhana five; the making of</a>
+                                    <div class="post-meta d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Post -->
+                            <div class="single-blog-post d-flex">
+                                <div class="post-thumbnail">
+                                    <img src="{% static 'img/bg-img/38.jpg' %}" alt="">
+                                </div>
+                                <div class="post-content">
+                                    <a href="{% url 'user:my-system' %}" class="post-title">How To Make Orange Chicken Recipe?</a>
+                                    <div class="post-meta d-flex justify-content-between">
+                                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 14</a>
+                                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 34</a>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 84</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ##### Vizew Psot Area End ##### -->
+
+
+{% endblock %}
